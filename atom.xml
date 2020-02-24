@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://beautifulwq.github.io</id>
     <title>beautifulwq的个人网站</title>
-    <updated>2020-02-24T08:05:37.254Z</updated>
+    <updated>2020-02-24T08:24:49.203Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://beautifulwq.github.io"/>
     <link rel="self" href="https://beautifulwq.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://beautifulwq.github.io/images/avatar.png</logo>
     <icon>https://beautifulwq.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, beautifulwq的个人网站</rights>
+    <entry>
+        <title type="html"><![CDATA[今天开始记录]]></title>
+        <id>https://beautifulwq.github.io/post/jin-tian-kai-shi-ji-lu/</id>
+        <link href="https://beautifulwq.github.io/post/jin-tian-kai-shi-ji-lu/">
+        </link>
+        <updated>2020-02-24T08:23:44.000Z</updated>
+        <content type="html"><![CDATA[<p>开心😄</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://beautifulwq.github.io/post/hello-gridea/</id>
