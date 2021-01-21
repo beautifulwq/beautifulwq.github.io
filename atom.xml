@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://beautifulwq.github.io</id>
     <title>WQ</title>
-    <updated>2021-01-15T05:35:52.614Z</updated>
+    <updated>2021-01-21T03:03:33.589Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://beautifulwq.github.io"/>
     <link rel="self" href="https://beautifulwq.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://beautifulwq.github.io/images/avatar.png</logo>
     <icon>https://beautifulwq.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, WQ</rights>
+    <entry>
+        <title type="html"><![CDATA[想法]]></title>
+        <id>https://beautifulwq.github.io/post/tdQ0LV63-/</id>
+        <link href="https://beautifulwq.github.io/post/tdQ0LV63-/">
+        </link>
+        <updated>2021-01-21T02:55:14.000Z</updated>
+        <content type="html"><![CDATA[<p>现在的生活也是一种内卷吗<br>
+如果刷卷的人非英雄，说别人非英雄的人<br>
+加入刷卷的队伍中形成了新的一波竞争<br>
+那不就是越来越卷了吗</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[电子书]]></title>
         <id>https://beautifulwq.github.io/post/Ff1_18MWW/</id>
