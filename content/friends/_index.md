@@ -1,7 +1,7 @@
 +++
 title = "friends"
 description = "WQ's friends"
-template = "blog.html"
+template = "prose.html"
 
 [extra]
 lang = 'zh'
