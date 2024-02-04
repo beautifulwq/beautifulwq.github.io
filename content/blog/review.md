@@ -2,7 +2,7 @@
 title: "17th week thought"
 author: wq
 date: 2023-12-23
-comments: true
+
 taxonomies:
     categories:
         - life

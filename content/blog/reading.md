@@ -2,7 +2,7 @@
 title: "reading"
 author: wq
 date: 2023-10-20
-comments: true
+
 taxonomies:
     categories:
         - life

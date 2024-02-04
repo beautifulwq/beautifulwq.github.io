@@ -1,0 +1,38 @@
+{
+    "calloutNote": {
+        "scope": "md,markdown",
+        "prefix": "callnote",
+        "body": ["{% note(header='Note') %}", "$1", "{% end %}", "$2"],
+        "description": "Log output to console"
+    },
+    "calloutImportant": {
+        "scope": "md,markdown",
+        "prefix": "callimpo",
+        "body": ["{% note(header='Important') %}", "$1", "{% end %}", "$2"],
+        "description": "Log output to console"
+    },
+    "calloutWarning": {
+        "scope": "md,markdown",
+        "prefix": "callwarning",
+        "body": ["{% note(header='Warning') %}", "$1", "{% end %}", "$2"],
+        "description": "Log output to console"
+    },
+    "calloutAlert": {
+        "scope": "md,markdown",
+        "prefix": "callalert",
+        "body": ["{% note(header='Alert') %}", "$1", "{% end %}", "$2"],
+        "description": "Log output to console"
+    },
+    "calloutQuestion": {
+        "scope": "md,markdown",
+        "prefix": "callQuestion",
+        "body": ["{% note(header='Question') %}", "$1", "{% end %}", "$2"],
+        "description": "Log output to console"
+    },
+    "calloutTip": {
+        "scope": "md,markdown",
+        "prefix": "callTip",
+        "body": ["{% note(header='Tip') %}", "$1", "{% end %}", "$2"],
+        "description": "Log output to console"
+    }
+}

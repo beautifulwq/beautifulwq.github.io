@@ -1,10 +1,11 @@
 ---
+title: "博客点评"
 author : WQ
 taxonomies:
     categories : 
         - tech
 date: 2024-01-02
-comments: true
+
 ---
 # 我与博客
 我对博客生成工具的看法

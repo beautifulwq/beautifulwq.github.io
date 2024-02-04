@@ -3,6 +3,7 @@ template = 'home.html'
 
 [extra]
 lang = 'zh'
+comments = false
 +++
 
 # About me
