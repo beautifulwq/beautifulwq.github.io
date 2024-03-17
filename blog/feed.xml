@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>WQ Blog</title>
+	<subtitle>WQ daily life</subtitle>
+	<link href="https://beautifulwq.github.io/blog/feed.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://beautifulwq.github.io/blog/"/>
+	<updated>2024-03-17T00:00:00+00:00</updated>
+	<id>https://beautifulwq.github.io/blog/feed.xml</id>
+	<entry xml:lang="en">
+		<title>一次sshPubKey连接问题</title>
+		<published>2024-03-17T00:00:00+00:00</published>
+		<updated>2024-03-17T00:00:00+00:00</updated>
+		<link href="https://beautifulwq.github.io/blog/ssh/" type="text/html"/>
+		<id>https://beautifulwq.github.io/blog/ssh/</id>
+		<content type="html">&lt;p&gt;之前一直是用 root 登录云服务器，想用普通用户 wqq 登录发现 ssh 免密码登录上不去，反复排查终于找到了，原来是 &lt;code&gt;&#x2F;home&#x2F;wqq&lt;&#x2F;code&gt; 这个文件夹的属性出了问题，others 不应该有 w 权限，其他的像是生成密钥等都写在 techbook-&amp;gt;linux 页面。&lt;&#x2F;p&gt;
+&lt;p&gt;这次花费2h总结得出：&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;chatgpt在查命令这方面好用太多了&lt;&#x2F;li&gt;
+&lt;li&gt;用正确的和错误的比对有可能有收获&lt;&#x2F;li&gt;
+&lt;li&gt;打日志，像 &lt;code&gt;ssh -vvv&lt;&#x2F;code&gt; &lt;code&gt;&#x2F;var&#x2F;log&#x2F;auth.log&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>SIFU</title>
+		<published>2024-01-28T00:00:00+00:00</published>
+		<updated>2024-01-28T00:00:00+00:00</updated>
+        <summary>&lt;h1 id=&quot;sifu&quot;&gt;SIFU&lt;a class=&quot;zola-anchor&quot; href=&quot;#sifu&quot; aria-label=&quot;Anchor link for: sifu&quot; style=&quot;visibility: hidden;&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;今天把武德结局打出来了😋&lt;&#x2F;p&gt;
+</summary>
+		<link href="https://beautifulwq.github.io/blog/sifu/" type="text/html"/>
+		<id>https://beautifulwq.github.io/blog/sifu/</id>
+		<content type="html">&lt;h1 id=&quot;sifu&quot;&gt;SIFU&lt;a class=&quot;zola-anchor&quot; href=&quot;#sifu&quot; aria-label=&quot;Anchor link for: sifu&quot; style=&quot;visibility: hidden;&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;今天把武德结局打出来了😋&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;blockquote&gt;
+&lt;p&gt;武艺高超，武德充沛之人，会令对手知难而退。他出手疾如迅雷，不战而屈人之兵。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;非常好的游戏，第一次玩的时候在 23 年上学期，当时被肖恩打到破防，棍子三连击给我打的高血压了，怒而卸载。放假之前又下回来了，把技能慢慢解锁就会好一些，然后查看一些连招教学(1) 。菜，就多练到能把握敌人的出招节奏。🤣
+{.annotate}&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;农夫三拳：掌击+追亡逐北&#x2F;骤雨连打+倒地打脸（e）&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;心得就是摁鼠标不宜太快，尽量多使用连招少用断断续续的，另外不一定要出招提示按键，&lt;code&gt;s+w+left mouse = a+d+left mouse&lt;&#x2F;code&gt; 依此类推&lt;&#x2F;p&gt;
+&lt;p&gt;点评一下几个 boss：&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;法贾：蹬腿招数变化不太多，闪避即可，然后出招&lt;&#x2F;li&gt;
+&lt;li&gt;肖恩：三连击的横扫把握好节奏就不难了，不自信的话可以多使用闪避&lt;&#x2F;li&gt;
+&lt;li&gt;黑木：感觉最难的一个，上下段变化最多，我是直接拉远距离等她用大风车我用格挡，或者是跳劈后过去打一下，二阶段反而比一阶段简单，闪避即可，对于突刺等人物出现闪光的时候按格挡即可&lt;&#x2F;li&gt;
+&lt;li&gt;锦凤：拉远距离使用格挡即可，重要的是节奏。二阶段的三连击如果第一下闪光就要躲避，不然会被拉到锦凤身边容易吃一套连招&lt;&#x2F;li&gt;
+&lt;li&gt;杨：肘击用闪避比较好，其余的格挡，我比较喜欢前几招较慢进行闪避，后几招快的进行格挡。&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;后来感觉内心平静的时候打得比较好，焦躁反而频繁失误。玩家像主角一样脱离复仇的轮回，获得内心的平静。&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>博客点评</title>
+		<published>2024-01-02T00:00:00+00:00</published>
+		<updated>2024-01-02T00:00:00+00:00</updated>
+        <summary>&lt;h1 id=&quot;wo-yu-bo-ke&quot;&gt;我与博客&lt;a class=&quot;zola-anchor&quot; href=&quot;#wo-yu-bo-ke&quot; aria-label=&quot;Anchor link for: wo-yu-bo-ke&quot; style=&quot;visibility: hidden;&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;我对博客生成工具的看法&lt;&#x2F;p&gt;
+</summary>
+		<link href="https://beautifulwq.github.io/blog/bolggene/" type="text/html"/>
+		<id>https://beautifulwq.github.io/blog/bolggene/</id>
+		<content type="html">&lt;h1 id=&quot;wo-yu-bo-ke&quot;&gt;我与博客&lt;a class=&quot;zola-anchor&quot; href=&quot;#wo-yu-bo-ke&quot; aria-label=&quot;Anchor link for: wo-yu-bo-ke&quot; style=&quot;visibility: hidden;&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;我对博客生成工具的看法&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;dian-ping-gong-ju&quot;&gt;点评工具&lt;a class=&quot;zola-anchor&quot; href=&quot;#dian-ping-gong-ju&quot; aria-label=&quot;Anchor link for: dian-ping-gong-ju&quot; style=&quot;visibility: hidden;&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;现在用的是 Python 的 mkdocs material，之前尝试过 vuepress、
+hexo、hugo 这几款静态生成器。没使用 Wordpress、Typecho这种动态网站是因为动态一般需要域名备案、远程机配置等工作，相对于直接在GitHub上挂静态网页麻烦了一些，还有被攻击的风险。但是另一方面动态的功能会更强一些，各取所需。&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;vuepress： 文档全面，但是想定制化需要前端知识，上手难度较大，主题较多&lt;&#x2F;li&gt;
+&lt;li&gt;jekyll：安装到气急败坏，上手不太友好，主题多，可能是最流行的&lt;&#x2F;li&gt;
+&lt;li&gt;hexo：经典生成器，上手友好，主题较多，想要定制往往靠主题&lt;&#x2F;li&gt;
+&lt;li&gt;hugo：号称速度最快的生成器，主题数量一般，文档不是很友好，上手难度较大，不太推荐&lt;&#x2F;li&gt;
+&lt;li&gt;mkdocs：Python后端，生成速度比较快，现在所有文章生成大概需要6秒，文档我认为是最全面的，上手简单，会 pip 安装就行，主题相对单调，但是功能比较多&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;我希望的生成器：开源，及时维护更新，生成速度快，功能多（ rss 和代码 Github 风格高亮这两个是我的心头好😋）。 &lt;del&gt;屁事太多导致答案是自己手搓 html&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;72851548&#x2F;permission-denied-to-github-actionsbot&quot;&gt;mkdocs自动化不能成功解决方案&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;hexo.fluid-dev.com&#x2F;docs&#x2F;&quot;&gt;Hexo Fluid Theme&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;yi-wang-xi&quot;&gt;忆往昔&lt;a class=&quot;zola-anchor&quot; href=&quot;#yi-wang-xi&quot; aria-label=&quot;Anchor link for: yi-wang-xi&quot; style=&quot;visibility: hidden;&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;第一次接触博客是高中看酷安时刷到的 Gridea ，第一次接触 Markdown，当时还没有系统学，转了专业才全面转向 Markdown ，当时没有科学上网，同步到 GitHub 经常失败，之后忙于高考就碰不上电脑了😥。转专业后再加上科学上网，就全面使用 Markdown 了，编辑博客用 vscode，本地记录用 Obsidian。&lt;&#x2F;p&gt;
+&lt;p&gt;为什么要写博客呢？最开始是能和同学有更多的谈资，现在主要是记录分享~~灌水~~。一个博客曾提到没有什么能比写作更强制你思考。但我的思维最活跃是在入睡前躺在床上的时候，这个时候的思维往往是灵光一现式的，这种流程式记录就不太合适， OneNote 这点就很好，到处记一下。&lt;&#x2F;p&gt;
+&lt;p&gt;看别人的博客也很有意思，看到另一种可能，海内存知己，天涯若比邻。虽然还没有知己，从小到大总是把一时较高的好感度拉低(1)，最后孑然一身。总喜欢玩零和博弈，大家都受伤的世界达成了&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>21</title>
+		<published>2022-09-22T00:00:00+00:00</published>
+		<updated>2022-09-22T00:00:00+00:00</updated>
+        <summary>&lt;p&gt;year by year&lt;&#x2F;p&gt;
+</summary>
+		<link href="https://beautifulwq.github.io/blog/20th/" type="text/html"/>
+		<id>https://beautifulwq.github.io/blog/20th/</id>
+		<content type="html">&lt;p&gt;year by year&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;21st&quot;&gt;21st&lt;a class=&quot;zola-anchor&quot; href=&quot;#21st&quot; aria-label=&quot;Anchor link for: 21st&quot; style=&quot;visibility: hidden;&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;今年的10月3日在家躺了一天，国庆参加了两个婚礼，得出的感悟是人生太短暂了，应该赶紧弄清楚自己想要什么，是互联网卷生卷死，考公，&lt;del&gt;保maybe😶&lt;&#x2F;del&gt; 考研中的哪一条路。&lt;&#x2F;p&gt;
+&lt;p&gt;感觉回来之后提不起劲，心情比较低落，希望安安稳稳的度过一生，要是包分配就好了&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;20ty&quot;&gt;20ty&lt;a class=&quot;zola-anchor&quot; href=&quot;#20ty&quot; aria-label=&quot;Anchor link for: 20ty&quot; style=&quot;visibility: hidden;&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;今天7：40起来后5食堂吃的豆沙饼、鸡蛋、豆浆
+回来后收拾一下去百团，
+收获了单车宽牌一副、大工钥匙扣一个、明信片2张、今年的盖章没有去年要求多，今年72个，去年100个，
+很幸运，一下就摸到黑桃A。中午开始下大雨，下午没去，估计都收摊了。&lt;&#x2F;p&gt;
+&lt;p&gt;去年的今天我发了一段《钢铁是怎样炼成的》的”人的生命只有一次那段“，今年没发，或许是因为想法变了😅。&lt;&#x2F;p&gt;
+&lt;p&gt;明天应该就去开发区了，走了。&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>转专业</title>
+		<published>2022-09-01T00:00:00+00:00</published>
+		<updated>2022-09-01T00:00:00+00:00</updated>
+        <summary>&lt;p&gt;转专业经过&lt;&#x2F;p&gt;
+</summary>
+		<link href="https://beautifulwq.github.io/blog/zhuan-zhuan-ye/" type="text/html"/>
+		<id>https://beautifulwq.github.io/blog/zhuan-zhuan-ye/</id>
+		<content type="html">&lt;p&gt;转专业经过&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;昨天刚面试完，问的问题挺正常的，但是自我介绍写了未来在物联网方向深入学习&lt;code&gt;（我看大类培养方案里有这个方向结果寄了）&lt;&#x2F;code&gt;，结果老师说物联网是在网络工程里的，那为什么要报软件工程，失策了，硬着头皮回答说先把软件基础打好，然后老师都笑了，屋里外充满了快活的空气。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;qi-yin&quot;&gt;起因&lt;a class=&quot;zola-anchor&quot; href=&quot;#qi-yin&quot; aria-label=&quot;Anchor link for: qi-yin&quot; style=&quot;visibility: hidden;&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;生化环材，四大天坑。土木机械，两大护法。&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;当时选化工与制药类我的最大原因就是高考考的寄了就化学正常发挥了，物理74、化学92、生物91.心灰意冷就加上了化工与制药类，然后就真来了。开学之后知乎劝退也看了挺多。就种下了run的想法，后来跟复旦经济学专业带手子唠了，他也建议我尽早提桶跑路，（他也吐槽金融太卷了，蛋糕都被光华，海归等人分完了），当时他建议我：1、润计算机：2、考一个金融相关的方向，化工加金融赛道&lt;code&gt;（有的老板需要既懂金融又懂化工的人）&lt;&#x2F;code&gt;3、华润万家🤣。从此开始认真考虑了。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;fa-zhan&quot;&gt;发展&lt;a class=&quot;zola-anchor&quot; href=&quot;#fa-zhan&quot; aria-label=&quot;Anchor link for: fa-zhan&quot; style=&quot;visibility: hidden;&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;大一上是在润与不润之间徘徊，尤其是平静的生活会让人安逸，成为鸵鸟&lt;code&gt;（我的室友跟我吐槽已经躺平了，实在不行就回家当老师；室友可能作为化工行业的英语爱好者靠画画为自己蒸的第一碗米饭😄）&lt;&#x2F;code&gt;大一下是80%的想法润了。在知乎上也问了往年的学长转专业的过程 ，后来也问了魔术社团现任会长&lt;code&gt;（材料-人工智能）&lt;&#x2F;code&gt;，贴吧老哥也看了不少，决定润了。学不动了，就看一看劝退的文章。很可惜，高数下没想到傅里叶级数考了大题🤡。总的来说，技不如人甘拜下风。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;shen-qing&quot;&gt;申请&lt;a class=&quot;zola-anchor&quot; href=&quot;#shen-qing&quot; aria-label=&quot;Anchor link for: shen-qing&quot; style=&quot;visibility: hidden;&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;开始申请的过程
+2022-8-15-10-32 计科16，自动化13，软件7，人工智能8
+最后软件比较少。就报了软件，计科40人也是卷王聚集地，自动化没报，全是阴兵，最后根本没报满。人工智能同自动化。&lt;&#x2F;p&gt;
+&lt;p&gt;接着就是准备面试。不打无准备之仗。准备了挺多就自我介绍全用上了。多准备一点总是没错的。面试问题包括但不限于：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;自我介绍&lt;&#x2F;li&gt;
+&lt;li&gt;有没有体育爱好。我写的兴趣爱好是看科幻小说和学习魔术&lt;&#x2F;li&gt;
+&lt;li&gt;单片机课学了些什么应用。简历上和自我介绍都提及了单片机原理及应用，回答就是流水灯。数码管。-电机。喇叭（其实是蜂鸣器），单片机老师陈育斌讲的确实好，给分也高，前提是作业都完成了&lt;&#x2F;li&gt;
+&lt;li&gt;工图课设分数比较低，是什么原因？ 考了69，70及以上可以用大作业申请工信部的cad证书，到时候课上完了别先把作业删了、课程群退了。这方面真的不太擅长，期末考试室友能提前我快40分钟做完还基本都对，我10个题都没来得及做完，最后对了两个😅，但是 面试还得及时跟上自己将来会改进的。&lt;&#x2F;li&gt;
+&lt;li&gt;为什么没选择网络工程&lt;&#x2F;li&gt;
+&lt;li&gt;魔术会的多吗？这个是老师帮我解围了，然后就结束面试了&lt;&#x2F;li&gt;
+&lt;li&gt;说几个这个专业的课程？这个没问我，问的另一个同学&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;总结&lt;&#x2F;strong&gt;：成绩好，面试就不会为难你。老师很有可能根据你的自我介绍提问，别整那些假大空的，万一不懂装懂就寄了。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;wei-sheng&quot;&gt;尾声&lt;a class=&quot;zola-anchor&quot; href=&quot;#wei-sheng&quot; aria-label=&quot;Anchor link for: wei-sheng&quot; style=&quot;visibility: hidden;&quot;&gt;#&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;面试完了就等着结果出来。然后进群，搬宿舍&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;选择比努力更加重要&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;!!! example &amp;quot;化工&amp;quot;&lt;&#x2F;p&gt;
+&lt;pre class=&quot;z-code&quot;&gt;&lt;code&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;我是如何一步步走进化工这个坑的！
+
+灵图
+
+合成研发工程师
+
+我是中科院某所毕业的硕士，去年毕业来到现在的公司。最近，领导通知我有一个新项目等着我来做，我查了下原料是剧毒化学品。近半年来，每天浸泡在含氟有机试剂氛围中，已使我萌生了跳槽的想法，当领导通知我这个新项目后，我萌生了转行的想法。转行虽能使我从化工这个危险行当脱身，但也意味着本科、硕士七年的化学专业学习白费了，需要从头学习其他行业的知识。走到今天这一步，不得不反思我是怎样一步步走进化工这行的。
+
+第一步是无知，高考选取大学专业时，我并不知道大学专业对工作的影响，不知道大学专业课程是怎么教的、怎么学的、怎么考试的，想当然的从考试难易的角度选取了专业。高中之前学习并考试过的科目有语文、数学、英语、物理、化学、生物、政治、地理、历史，高中时分到理科班，对专业的认识只能从语文、数学、英语、物理、化学、生物这几门课程中窥探，想当然的认为高中理科生对应大学专业是与物理、化学、生物这三者相关的，而这三科对我来说化学最易考试，于是通向化工这行的第一步迈开了，高考选取了林产化工这个专业。化工之前有“林产”是因为，家在农村，小时候父亲长期从事林木采伐职业，对树林比较熟悉。
+
+第二步是短视，要说这第一步的无知是客观环境造成的，这第二步的短视的确是个人原因造成的。进入大一我已从同学那里知道大一下学期可以转专业，大一上学期除了上课和参加公共活动，我大部分时间泡在学校图书馆，周末去信息工程学院上网玩。由于不知道大学每门课结束后老师会画考试重点，课程多、学的快，担心期末考试通不过，课余我还经常去图书馆找习题做，按高中的思路理解划重点就是提前透露考题。由于用力过猛，大一第一学期期末考试我考了专业第一。第二学期开学不久，有一天班长通知我们要评专业奖学金，第一次完全按照考试成绩评。这时大家才开始关注大学奖学金的事，自从知道有奖学金后，身为贫困生的我，大学学习、考试就是为了奖学金，短视的种子自此埋下。有一天，平时关系挺好的老杨告诉我他要转专业，问我转么，我问了他一些转专业后学分的问题，了解到转专业后需要补休一些其他专业大一第一学期学过，而自己没有学过的课程。后来我没有转专业，当时是出于两点原因，一是不想补休课程，二是受到奖学金的诱惑，而这第二点是主因。评奖学金时，我从班长那了解到，大一结束后会评国家奖学金（8000元），我们专业有一到两个名额，如果我保持成绩有很大可能拿到国家奖学金，而当时我第一学期的成绩已经领先。最终我并没有拿到国家奖学金，因为自从知道有奖学金这回事，女同学发力了，而我知道考试会划重点后松懈了。
+
+第三步是惯性，第一、第二步我能用很明确的词语形容，这第三步不太好形容，就用惯性这个词吧。进入大学，入学典礼上院长，就给我们灌输了考研思想，大学四年，我们班主任（我们学院党委副书记）每次开班会都给我灌输类似的思想。他每次开会总是说希望我们班三分之一留学、保研，三分之一考研。大二下学期学校鼓励大家申请“大学生创新性实验项目”，本来我没想申请，看到班里大部分人三、五一组申请了，在周围人的鼓动下，我也与几个同学组成小组申请了，我被推为组长，虽然，在别人材料快准备完时，我们才找老师、准备材料，不被周围人看好的我们组，却最终被评为国家级项目（分三级：院级、校级、国家级），全校评出10个国家级项目，我们组排第四，这件事给大家留下了我适合搞学术研究的印象（研究生读完，我发现我非常不适合搞学术研究），也加强了我读研的惯性。在这种惯性的作用下我考了化工专业的研究生。
+
+第四步是专业，虽然，读研期间被折腾的不轻，想过逃离化工行当，但是，毕业找工作时发现，大部分工作是要求专业对口的，那种不要求专业的工作，对学历也没有什么要求。放弃自己的专业，意味着大学、硕士白读了，家人是反对的。
+
+有时候真想裸辞，花一两年时间尝试下其他行业，我知道这会遭到他们的反对！
+
+编辑于 2016-12-11 16:03
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+	</entry>
+</feed>
