@@ -34,5 +34,41 @@
         "prefix": "callTip",
         "body": ["{% note(header='Tip') %}", "$1", "{% end %}", "$2"],
         "description": "Log output to console"
+    },
+    "blog_template": {
+        "scope": "md,markdown",
+        "prefix": "blog_template",
+        "body": [
+            "---",
+            "title : \"title\"",
+            "date : 2022-01-01",
+            "draft : false",
+            "taxonomies:",
+            "   categories:",
+            "       - \"life\"",
+            "   tags:",
+            "       - \"tags\"",
+
+            "extra:",
+            "   lang : \"zh\"",
+            "   toc : true",
+            "   comment : true",
+            "   copy : true",
+            "   math : false",
+            "   mermaid : false",
+            "   outdate_alert : true",
+            "   outdate_alert_days : 120",
+            "   display_tags : true",
+            "   truncate_summary : false # 摘要",
+            "   featured : false",
+            "---",
+            "",
+            "new post about something...",
+            "",
+            "<!-- more -->",
+            "",
+            "more post content..."
+        ],
+        "description": "Log output to console"
     }
 }
